@@ -1,0 +1,14 @@
+name = "archive-bot"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[vars]
+ADMIN_IDS = "123456789"   # آیدی عددی تلگرام شما (چند نفر با کاما)
+
+[triggers]
+crons = ["* * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "archive-bot"
+database_id = "PUT_YOUR_D1_ID_HERE"

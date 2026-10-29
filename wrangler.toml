@@ -3,7 +3,7 @@ main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
 [vars]
-ADMIN_IDS = "123456789"   # آیدی عددی تلگرام شما (چند نفر با کاما)
+ADMIN_IDS = "5055650124"   # آیدی عددی تلگرام شما (چند نفر با کاما)
 
 [triggers]
 crons = ["* * * * *"]
@@ -11,4 +11,4 @@ crons = ["* * * * *"]
 [[d1_databases]]
 binding = "DB"
 database_name = "archive-bot"
-database_id = "PUT_YOUR_D1_ID_HERE"
+database_id = "9a35f43c-ee16-4c5f-8cf4-79ef656b8231"
